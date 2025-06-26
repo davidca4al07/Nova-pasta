@@ -6,11 +6,11 @@
   
   body {
     font-family: 'Inter', sans-serif;
-    background-color: #f9f9f9;
-  }
+    /* background-color: red; */
+}
   
   .navbar {
-    background-color: #ffffff;
+    background-color: #292F36;
     padding: 12px 24px;
     display: flex;
     align-items: center;
@@ -21,6 +21,7 @@
   
   .logo img {
     height: 40px;
+    border-radius: 50px;
   }
   
   .nav-links {
@@ -32,14 +33,14 @@
   
   .nav-links li a {
     text-decoration: none;
-    color: #333;
+    color: #DAF0EE;
     font-weight: 500;
     padding: 8px;
     transition: color 0.3s ease;
   }
   
   .nav-links li a:hover {
-    color: #0077ff;
+    color: #e7cf78;
   }
   
   .dropdown {
@@ -106,13 +107,13 @@
   
 .product-catalog {
     padding: 60px 40px;
-    background-color: #ffffff;
+    background-color: #DAF0EE;
 }
 
 .product-catalog h2 {
     text-align: center;
     font-size: 2rem;
-    color: #333;
+    color: #373E40;
     margin-bottom: 20px;
 }
 
@@ -123,8 +124,8 @@
 }
 
 .product {
-    background-color: #f9f9f9;
-    border: 1px solid #e0e0e0;
+    background-color: #e7cf78;
+    border: 1px solid #373E40;
     border-radius: 8px;
     padding: 20px;
     text-align: center;
@@ -135,17 +136,18 @@
     max-width: 100%;
     border-radius: 8px;
     margin-bottom: 15px;
+    height: 210px;
 }
 
 .product h3 {
     font-size: 1.25rem;
-    color: #333;
+    color: #0a0909;
     margin-bottom: 10px;
 }
 
 .product p {
     font-size: 0.9rem;
-    color: #666;
+    color: #0a0909;
     margin-bottom: 10px;
 }
 
@@ -166,7 +168,9 @@
 }
 
 .product button:hover {
-    background-color: #005bb5;
+    border: 1px solid #0a0909;
+    background-color: #e7cf78;
+    color: #0a0909;
 }
 
 .product:hover {
